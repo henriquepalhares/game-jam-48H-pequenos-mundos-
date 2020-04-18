@@ -9,7 +9,7 @@ var chance = random(100);
 	if (chance > 10){
 		var yy = random_range(-256,-500);
 		var xx = choose(-256,room_width+500);
-		instance_create_layer(xx,yy,"obstaculos",obj_vento);
+		instance_create_layer(xx,yy,"vento",obj_vento);
 	}
 	
 var repete = random_range(2,6);

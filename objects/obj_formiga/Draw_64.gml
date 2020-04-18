@@ -1,1 +1,5 @@
-draw_text(20,20,string(vida));
+var n = 1;
+repeat(vida){
+	draw_sprite_ext(spr_formiga, 0, 30*n, room_height-30, .3,.3, 0, c_red, .8);
+	n++;
+}

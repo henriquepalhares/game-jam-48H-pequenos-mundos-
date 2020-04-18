@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "39241e89-0b36-4ba6-a9c6-d7b2d3c67a5b",
+            "Value": {
+                "id": "442865bd-e31e-4a04-9d6d-034eacd45838",
+                "resourcePath": "sprites\\spr_fundo\\spr_fundo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3ff23c37-a22a-496f-8943-a64b0bad1f50",
             "Value": {
                 "id": "7f2b2cd1-139f-43c3-ba4a-f55f7a468a11",
@@ -119,11 +127,27 @@
             }
         },
         {
+            "Key": "65467bf5-5cd8-48c4-ab98-8929ed920801",
+            "Value": {
+                "id": "4a46a0e7-fade-4995-b233-c74320c7b399",
+                "resourcePath": "objects\\obj_rastro\\obj_rastro.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "65cc38b9-3bec-49d6-958d-7d5e96d7bbea",
             "Value": {
                 "id": "2541b551-e483-4a71-bbaa-955c8cd37832",
                 "resourcePath": "objects\\obj_treme\\obj_treme.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "68f21c28-4b20-4ae5-bc10-232e493fa9e5",
+            "Value": {
+                "id": "8ecccf80-9540-4638-ae8f-b05178d15007",
+                "resourcePath": "sprites\\spr_rastro\\spr_rastro.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

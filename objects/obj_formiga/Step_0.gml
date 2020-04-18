@@ -7,9 +7,11 @@ if(!invencivel){
 	var cima = keyboard_check(vk_up);			//checando se estou segurando cima
 	var baixo = keyboard_check(vk_down);		//checando se estou segurando baixo
 
-	//testando o tiro tirar depois de testar
-
-	//impedindo que o player saia da tela
+cont+=1;
+if cont>= 5 && (esq || dir|| cima){
+	instance_create_layer(x,y+32,"instances",obj_rastro);
+	cont = 0;
+}
 
 		//------movimento horizontal------
 	//"checando"
@@ -52,7 +54,7 @@ if(!invencivel && place_meeting(x,y,obj_galho)){
 	invencivel = true;
 	vida-=1;
 	alarm[1] = room_speed/2
-	instance_create_layer(x,y,"instances",obj_treme);
+	instance_create_layer(0,0,"instances",obj_treme);
 	image_angle+=20;
 	direction = direction + 180;
 	speed = 5
