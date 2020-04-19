@@ -65,7 +65,7 @@ if(!invencivel && place_meeting(x,y,obj_galho)){
 
 var vento = instance_place(x,y,obj_vento);
 if(!s_controle && vento && !invencivel){
-	image_angle+=5;
+	image_angle+=25;
 	instance_create_layer(x,y,"instances",obj_treme);
 	s_controle = true;
 	direction = vento.direction;
@@ -75,7 +75,7 @@ if(!s_controle && vento && !invencivel){
 
 
 if(vida<=0){
-	game_restart();
+	instance_destroy();
 }
 
 //usando primeira imagem

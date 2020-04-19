@@ -199,19 +199,19 @@
             }
         },
         {
-            "Key": "b0eea25c-f929-47de-8d5e-a2b4f22ab740",
-            "Value": {
-                "id": "f08230b7-550e-4da4-8188-dcb2d16dc688",
-                "resourcePath": "sprites\\spr_galho\\spr_galho.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "b3bbc42c-46b8-4940-b070-fe6ecbd121b3",
             "Value": {
                 "id": "fb0df896-58e3-42bf-bfbe-4db263ce6807",
                 "resourcePath": "views\\b3bbc42c-46b8-4940-b070-fe6ecbd121b3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b56e7174-740b-470d-8aa9-6fb0c16bc237",
+            "Value": {
+                "id": "83c0444e-c87f-4c26-b78e-628c494d9ecc",
+                "resourcePath": "objects\\obj_morreu\\obj_morreu.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -228,6 +228,14 @@
                 "id": "1245f8d8-9bfc-4721-9dae-50ebd912a00f",
                 "resourcePath": "objects\\obj_vento\\obj_vento.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cbbaba23-09c6-488a-9faa-15dff01bda12",
+            "Value": {
+                "id": "bb7a1246-bcdb-4dfb-a0be-3e477e5db6af",
+                "resourcePath": "rooms\\rm_menu\\rm_menu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -255,6 +263,14 @@
             }
         },
         {
+            "Key": "e4330fdb-40af-491f-8ae0-7c8ae9537150",
+            "Value": {
+                "id": "21f9f664-04bd-47c2-80a1-0004c96a740f",
+                "resourcePath": "sprites\\spr_galhoanima\\spr_galhoanima.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f15cf157-ae00-40eb-a9cd-54a65c167fd8",
             "Value": {
                 "id": "2ab4a682-a344-4082-a1db-b67ce661a68f",
@@ -268,6 +284,14 @@
                 "id": "f24dbd66-aecf-4e60-907d-09107b432008",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "fa8c97c2-b298-444c-b4da-48273275c1ba",
+            "Value": {
+                "id": "1e32f814-f45f-4e12-b5d3-30b77eee3871",
+                "resourcePath": "sprites\\spr_formigacaindo\\spr_formigacaindo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
