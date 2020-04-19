@@ -50,7 +50,7 @@
             "Key": "0f9dff1d-6ac6-4cba-b9cc-a7e47cd8ecec",
             "Value": {
                 "id": "434a6ce3-a962-4534-a60e-cf83908883e6",
-                "resourcePath": "objects\\obj_score\\obj_score.yy",
+                "resourcePath": "objects\\obj_bot_score\\obj_bot_score.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -108,6 +108,14 @@
                 "id": "b75ab67e-c320-47a1-b0d4-49d179838375",
                 "resourcePath": "views\\40744c7c-5489-4a94-a10b-c501c5e9ae06.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "42f2e18d-f097-447e-9dba-25bd4a0b8277",
+            "Value": {
+                "id": "84a33c87-569b-4c3e-bfd2-203330fb79f9",
+                "resourcePath": "objects\\obj_score\\obj_score.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -223,10 +231,18 @@
             }
         },
         {
+            "Key": "83e0823f-0e93-4ed4-89e3-6a0cc9153a60",
+            "Value": {
+                "id": "003e4b44-75e9-4e3c-a1b5-4db5ad2580fd",
+                "resourcePath": "fonts\\fnt_exibir\\fnt_exibir.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "8765585a-d822-40d5-a5e0-6ff9629328e6",
             "Value": {
                 "id": "e2340f3b-6ccd-4442-b3ee-7614c73e7792",
-                "resourcePath": "objects\\obj_score1\\obj_score1.yy",
+                "resourcePath": "objects\\obj_bot_menu\\obj_bot_menu.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -252,6 +268,14 @@
                 "id": "494c7b96-e99a-468a-9aca-5202aea0ae0a",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a9bd3ffc-b226-4e14-9f00-e8188da3d7fc",
+            "Value": {
+                "id": "92dc833d-d6eb-4ed3-9589-4669bda96c77",
+                "resourcePath": "fonts\\fnt_titulo\\fnt_titulo.yy",
+                "resourceType": "GMFont"
             }
         },
         {

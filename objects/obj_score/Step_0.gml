@@ -1,10 +1,5 @@
-
-if(position_meeting(mouse_x,mouse_y,self) ){
-	image_blend = c_silver;
-	if(mouse_check_button(mb_left)){
-	room_goto(rm_score);
-}
-}
-else{
-	image_blend = c_white;
+if(room = rm_play && instance_exists(obj_formiga)){
+	if(global.maiorpontos < global.tempo){
+		global.maiorpontos = global.tempo;
+	}
 }
