@@ -1,6 +1,9 @@
 vel = 4;
 s_controle = 0;
-vida = 5;
+global.vida = 5;
 invencivel = 0;
 image_speed = 0;
 cont = 0
+ativador=true
+direcao=0;
+contando = 0;

@@ -6,7 +6,11 @@ if(!invencivel){
 	var dir = keyboard_check(vk_right);			//checando se estou segurando direita
 	var cima = keyboard_check(vk_up);			//checando se estou segurando cima
 	var baixo = keyboard_check(vk_down);		//checando se estou segurando baixo
-
+contando+=1;
+if contando >= 25 && (esq || dir || cima || baixo){
+	audio_play_sound(snd_andar,1,0);
+	contando = 0;
+}
 cont+=1;
 if cont>= 5 && (esq || dir|| cima){
 	instance_create_layer(x,y+32,"instances",obj_rastro);
@@ -47,12 +51,13 @@ if cont>= 5 && (esq || dir|| cima){
 }
 x= clamp(x,32,room_width-32);
 y=clamp(y,32,room_height-32);
-if(y = room_height-32){
-	instance_destroy();	
+if(y >= room_height-32){
+	global.vida=0;
 }
 if(!invencivel && place_meeting(x,y,obj_galho)){
+	audio_play_sound(snd_tomeidano,10,0);
 	invencivel = true;
-	vida-=1;
+	global.vida-=1;
 	alarm[1] = room_speed/2
 	instance_create_layer(0,0,"instances",obj_treme);
 	image_angle+=20;
@@ -74,8 +79,9 @@ if(!s_controle && vento && !invencivel){
 }
 
 
-if(vida<=0){
+if(global.vida<=0){
 	instance_destroy();
+	audio_play_sound(snd_morreu,2,0);
 }
 
 //usando primeira imagem
